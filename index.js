@@ -11,7 +11,7 @@ function createWindow(){
     //show index.html
     win.loadURL('file://' + __dirname + '/index.html');
     //shiw devtool
-    win.webContents.openDevTools();
+    //win.webContents.openDevTools();
 
     //if cclose window, then kill
     win.on('closed', () => {
